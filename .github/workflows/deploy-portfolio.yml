@@ -33,12 +33,12 @@ jobs:
           const fs = require("node:fs");
           const assert = require("node:assert/strict");
           const html = fs.readFileSync("portfolio/dsa-lab/index.html", "utf8");
-          const scripts = [...html.matchAll(/<script>([\\s\\S]*?)<\\/script>/g)];
+          const scripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)];
           assert.ok(scripts.length, "DSA Universe script was not found");
           const appScript = scripts[scripts.length - 1][1];
           new Function(appScript);
           const start = appScript.indexOf("const DATA=");
-          const end = appScript.indexOf(";\\nconst $=", start);
+          const end = appScript.indexOf(";\nconst $=", start);
           assert.ok(start >= 0 && end > start, "Embedded DSA data block was not found");
           const data = JSON.parse(appScript.slice(start + 11, end));
           assert.equal(data.tasks.length, 443, "Roadmap question count changed");
