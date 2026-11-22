@@ -5,7 +5,7 @@
 I enjoy solving algorithmic problems, understanding how systems work, and turning ideas into practical software. My current focus is strengthening my Java and computer-science fundamentals while building web applications with clean APIs, reliable data handling, and useful user experiences.
 
 <p align="left">
-  <a href="https://ujjwal-painuly.github.io/ayushpainuly1234-ui/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+  <a href="https://ujjwal-painuly.github.io/ujjwal-portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/code-with-ujjwal-83828a352/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://leetcode.com/u/code_with_ujjwal26/"><img src="https://img.shields.io/badge/LeetCode-Practice-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
   <a href="https://www.youtube.com/@Ujjwalpainuly09"><img src="https://img.shields.io/badge/YouTube-Code%20With%20Ujjwal-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
@@ -27,8 +27,8 @@ I enjoy solving algorithmic problems, understanding how systems work, and turnin
 
 | Platform | Link |
 |---|---|
-| Portfolio website | [Open portfolio](https://ujjwal-painuly.github.io/ayushpainuly1234-ui/) |
-| Interactive DSA roadmap / DSA Universe | [Launch app — 443-problem roadmap, Graph Lab and 3D architecture](https://ujjwal-painuly.github.io/ayushpainuly1234-ui/dsa-lab/) |
+| Portfolio website | [Open portfolio](https://ujjwal-painuly.github.io/ujjwal-portfolio/) |
+| Interactive DSA roadmap / DSA Universe | [Launch app — 443-problem roadmap, Graph Lab and 3D architecture](https://ujjwal-painuly.github.io/ujjwal-portfolio/dsa-lab/) |
 | LinkedIn | [Code With Ujjwal](https://www.linkedin.com/in/code-with-ujjwal-83828a352/) |
 | LeetCode | [@code_with_ujjwal26](https://leetcode.com/u/code_with_ujjwal26/) |
 | YouTube | [Code With Ujjwal](https://www.youtube.com/@Ujjwalpainuly09) |
@@ -47,7 +47,7 @@ I practise DSA mainly in Java, focusing on understanding patterns instead of mem
 
 ### DSA practice links
 
-- [Interactive DSA Roadmap — 443 problems](https://ujjwal-painuly.github.io/ayushpainuly1234-ui/#roadmap)
+- [Interactive DSA Roadmap — 443 problems](https://ujjwal-painuly.github.io/ujjwal-portfolio/#roadmap)
 - [Advanced Java DSA repository](https://github.com/ujjwal-painuly/advanced-java-dsa)
 - [Java DSA Practice repository](https://github.com/ujjwal-painuly/java-dsa-practice)
 
@@ -102,7 +102,7 @@ A topic-organised repository for practising data structures, algorithms, and pro
 
 A separate interactive app featuring a 443-question roadmap, Java algorithm library, graph visualizer, and interactive 3D project architecture.
 
-**[Launch DSA Universe](https://ujjwal-painuly.github.io/ayushpainuly1234-ui/dsa-lab/)** · [Source Code](https://github.com/ujjwal-painuly/ayushpainuly1234-ui/tree/main/portfolio/dsa-lab)
+**[Launch DSA Universe](https://ujjwal-painuly.github.io/ujjwal-portfolio/dsa-lab/)** · [Source Code](https://github.com/ujjwal-painuly/ujjwal-portfolio/tree/main/portfolio/dsa-lab)
 
 ## 🏆 Hackathons & Coding Competitions
 
@@ -140,7 +140,7 @@ I share my coding journey, DSA practice, problem-solving learnings, and software
 - **LinkedIn:** [Code With Ujjwal](https://www.linkedin.com/in/code-with-ujjwal-83828a352/)
 - **LeetCode:** [@code_with_ujjwal26](https://leetcode.com/u/code_with_ujjwal26/)
 - **YouTube:** [Code With Ujjwal](https://www.youtube.com/@Ujjwalpainuly09)
-- **Portfolio:** [ujjwal-painuly.github.io](https://ujjwal-painuly.github.io/ayushpainuly1234-ui/)
+- **Portfolio:** [ujjwal-painuly.github.io](https://ujjwal-painuly.github.io/ujjwal-portfolio/)
 
 ---
 
