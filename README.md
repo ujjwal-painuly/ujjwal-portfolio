@@ -90,7 +90,9 @@ A full-stack project exploring civic issue reporting and repair planning under b
 
 A responsive browser-based music player with playlist controls, track search, playback progress, and seeking.
 
-**Local browser prototype (public demo not deployed)** · [💻 Source Code](https://github.com/ujjwal-painuly/ujjwal-music-player)
+**[Open live frontend demo](https://ujjwal-painuly.github.io/ujjwal-music-player/)** · [💻 Source Code](https://github.com/ujjwal-painuly/ujjwal-music-player)
+
+*The public demo plays the bundled local tracks. Account features need a separately deployed API and are not enabled yet.*
 
 ### 4. Advanced Java DSA
 
