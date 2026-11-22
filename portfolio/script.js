@@ -42,7 +42,7 @@
       <a class="leetcode-profile-card" href="https://leetcode.com/u/code_with_ujjwal26/" target="_blank" rel="noreferrer" aria-label="Open Code With Ujjwal LeetCode profile">
         <span class="leetcode-badge-wrap"><img src="https://assets.leetcode.com/static_assets/others/100_1080_1080.png" alt="LeetCode 100 badge" loading="lazy"></span>
         <span class="leetcode-profile-copy"><span class="leetcode-kicker">LEETCODE PROFILE</span><strong>Code With Ujjwal</strong><span class="leetcode-handle">@code_with_ujjwal26</span><span class="leetcode-motto">Consistency · Solve a problem. Learn every day.</span></span>
-        <span class="leetcode-rank"><span>GLOBAL RANK</span><strong>169,306</strong><small>View profile ↗</small></span>
+        <span class="leetcode-rank"><span>LEETCODE PROFILE</span><strong>Live profile</strong><small>View current stats ↗</small></span>
       </a>
       <div class="dsa-topic-grid">
         <a class="dsa-topic" href="https://github.com/ujjwal-painuly/advanced-java-dsa/tree/main/graphs" target="_blank" rel="noreferrer"><strong>Graphs</strong><span>BFS · DFS · shortest paths ↗</span></a>
