@@ -25,6 +25,29 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           enablement: true
+      - name: Validate portfolio scripts and DSA workspace data
+        run: |
+          node --check portfolio/script.js
+          node --check portfolio/roadmap.js
+          node <<'NODE'
+          const fs = require("node:fs");
+          const assert = require("node:assert/strict");
+          const html = fs.readFileSync("portfolio/dsa-lab/index.html", "utf8");
+          const scripts = [...html.matchAll(/<script>([\\s\\S]*?)<\\/script>/g)];
+          assert.ok(scripts.length, "DSA Universe script was not found");
+          const appScript = scripts[scripts.length - 1][1];
+          new Function(appScript);
+          const start = appScript.indexOf("const DATA=");
+          const end = appScript.indexOf(";\\nconst $=", start);
+          assert.ok(start >= 0 && end > start, "Embedded DSA data block was not found");
+          const data = JSON.parse(appScript.slice(start + 11, end));
+          assert.equal(data.tasks.length, 443, "Roadmap question count changed");
+          assert.equal(data.advanced.length, 64, "Advanced Java file index changed");
+          assert.equal(data.leetcode.length, 53, "LeetCode file index changed");
+          assert.equal(new Set(data.tasks.map((task) => task.id)).size, data.tasks.length, "Duplicate roadmap task IDs");
+          console.log("Portfolio scripts and DSA workspace data are valid.");
+          NODE
+
       - name: Upload portfolio site
         uses: actions/upload-pages-artifact@v5
         with:
